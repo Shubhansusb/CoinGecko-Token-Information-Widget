@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinGecko Token Information Widget</title>
+</head>
+<body>
+    <div id="main">
+        <label for="cryptocurrency" >Select Crypto:</label>
+        <select id="cryptocurrency">
+          
+          <option value="bitcoin">Bitcoin</option>
+          <option value="ethereum">Ethereum</option>
+          <option value="tether">Tether</option>
+          <option value="usd-coin">USD-Coin</option>
+        </select> 
+
+    </div>
+    <div id="coin-ticker">
+        <div class="upper-part">
+            <img id="coin-image" src="" style="width: 50px; height: 50px;">
+            <div id="name-symbol"></div>
+            <div id="current-price"></div>
+            <div id="percentage-change"></div>
+        </div>
+        <div class="lower-part">
+            <div id="rank"></div>
+            <div id="market-cap"></div>
+            <div id="volume"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="widget.js"></script>
+</body>
+</html>
+

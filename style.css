@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 85%;
+    font-family: Arial, sans-serif;
+}
+
+#main {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#coin-ticker {
+    width: 600px;
+    height: 150px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.upper-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+}
+
+.lower-part {
+    display: flex;
+    flex: 1;
+    /* padding: 15px; */
+    background-color: #ffffff;
+}
+
+.lower-part div {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.lower-part div:last-child {
+    border-right: none;
+}
+
+#percentage-change {
+    color: darkred;
+    font-weight: bold;
+    margin-right: 300px;
+}
+
+#coin-image {
+    width: 30px;
+    height: 30px;
+   
+    margin-left: 20px;
+}
+
+#name-symbol {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+
+#current-price {
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: left;
+    margin-right: 100px;
+}
+
+#cryptocurrency {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#rank,  #volume{
+   text-align: center;
+   padding-top: 20px;
+}
+
+#market-cap{
+    padding-top:15px ;
+}
